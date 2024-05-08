@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: #3a3d47;
+    font-family: verdana;
+}
+
+.contenedor{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+
+.top{
+    background: #1551a1;
+    overflow: hidden;
+}
+
+.logo1{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+
+
+.menu{
+    float: left;
+    padding: 50px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.button{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+.opciones li a:hover{
+    background: #0d356a;
+}
+
+.titulo{
+    color: #ff7600;
+    text-align: center;
+    padding: 15px 0 20px 0;
+    font-size: 25px;
+}
+
+.content{
+    overflow: hidden;
+}
+
+.caja{
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid black;
+}
+
+
+.servicios{
+    background: #1551a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 2px;
+
+}
+
+.efect:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.contenido{
+
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.boton2{
+    background: #144a91;
+    padding: 15px 20px;
+    margin: 12px 120px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid;
+    
+}
+
+.boton2:hover{
+    background: #0c2c57;
+    cursor: pointer;
+}
+footer{
+    background: #062348;
+    overflow: hidden;
+}
+.footer_derecha{
+        float: left;
+        width: 400px;
+        padding: 40px;
+        margin-left: 40px;
+        display: inline;
+        text-align: center;
+        color: white;
+}
+.footer_derecha p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+.footer_izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.footer_izquierda img{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    padding: 20px;
+}
+.abajo{
+    color: white;
+}
